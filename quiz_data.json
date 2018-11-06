@@ -1,0 +1,54 @@
+[
+{
+"question" : "Which CSS property do you use for fade in or fade out animations?",
+"answers" : [
+{"id" : 0, "text" : "display" },
+{"id" : 1, "text" : "visibility" },
+{"id" : 2, "text" : "fade" },
+{"id" : 3, "text" : "opacity" }
+],
+"correct" : 3,
+"feedback" : "CSS3 transition animations make elements appear and disappear via the opacity property."
+},
+{
+"question" : "When the DOM (document object model) has been loaded, where would the jQuery events and functions run inside?",
+"answers"  : [
+{"id"  : 0, "text" : "$(window).on(function(){});"},
+{"id"  : 1, "text" : "$(document).ready(function(){});"},
+{"id"  : 2, "text" : "$(document).ready.log(){});"},
+{"id"  : 3, "text" : "$(window).on(log(){});"}
+],
+"correct"  : 1,
+"feedback" : "Code included inside $(document).ready() runs after all of the resources (HTML, CSS and JS files) have been loaded for the page."
+},
+{
+"question" : "$this is a reference to the current _________ in PHP.",
+"answers"  : [
+{"id"  : 0, "text" : "property"},
+{"id"  : 1, "text" : "variable"},
+{"id"  : 2, "text" : "object"},
+{"id"  : 3, "text" : "class"}
+],
+"correct"  : 2,
+"feedback" : "$this is a reference to the calling object and it can be used in class methods only."
+},
+{
+"question" : "Which image shows a correct Javascript function?",
+"answers"  : [
+{"id"  : 0, "image" : "images/code_function_1.jpg" },
+{"id"  : 1, "image" : "images/code_function_2.jpg" },
+{"id"  : 2, "image" : "images/code_function_3.jpg" },
+{"id"  : 3, "image" : "images/code_function_4.jpg" }
+],
+"correct"  : 2
+},
+{
+"question" : "Is this MySQL query is true or false: SELECT * FROM customers WHERE country='Canada' ORDER BY customerName DESC ",
+"answers"  : [
+{"id"  : 0, "text" : "True"},
+{"id"  : 1, "text" : "False"}
+],
+"correct"  : 1,
+"feedback" : "The query is actually True but semicolon is missing at the end of the query that's why it's False."
+}
+]
